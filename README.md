@@ -1,45 +1,66 @@
-# Amigo Secreto
+# 🎉 Amigo Secreto  
 
-![Amigo Secreto](assets/amigo-secreto.png)
+Um simples e divertido sorteador de **Amigo Secreto**, onde você pode adicionar os participantes e realizar um sorteio automaticamente!  
 
-## Descrição
+![Amigo Secreto](./assets/amigo-secreto.png)  
 
-O **Amigo Secreto** é uma aplicação web que facilita a organização do tradicional jogo de amigo secreto. Permite adicionar participantes e realizar o sorteio de forma simples e intuitiva.
+---
 
-## Funcionalidades
+## 🕹️ Como Funciona?  
+1. **Adicione os amigos** digitando seus nomes no campo de entrada e clicando no botão **"Adicionar"**.  
+2. O nome será inserido na lista de participantes.  
+3. Após adicionar pelo menos dois amigos, clique em **"Sortear amigo"**.  
+4. O sistema embaralhará os nomes e atribuirá um amigo secreto para cada um, garantindo que ninguém tire a si mesmo.  
+5. A lista com os pares será exibida na tela!  
 
-- Adicionar nomes de participantes.
-- Listar participantes adicionados.
-- Realizar o sorteio do amigo secreto.
-- Exibir os resultados do sorteio.
+---
 
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas  
+- **HTML5** → Estrutura do jogo  
+- **CSS3** → Estilização e layout responsivo  
+- **JavaScript** → Lógica do sorteio e manipulação do DOM  
 
-- **HTML5**: Estruturação da página.
-- **CSS3**: Estilização e layout.
-- **JavaScript**: Lógica de funcionamento da aplicação.
+---
 
-## Como Utilizar
+## 📂 Estrutura do Projeto  
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/FranciscoArrudaMacr/desafio-amigo-secreto.git
+A estrutura do projeto está organizada da seguinte forma:
 
-2. Navegue até o diretório do projeto:
-```bash
-cd desafio-amigo-secreto
-```
-3. Abra o arquivo index.html no seu navegador preferido.
+📁 amigo-secreto/
+├── 📂 assets/ # Imagens e ícones do projeto
+│ ├── 🖼️ amigo-secreto.png # Imagem representativa do amigo secreto
+│ ├── 🎮 play_circle_outline.png # Ícone do botão de sorteio
+├── 📄 index.html # Página principal do sorteador
+├── 🎨 style.css # Estilos e layout do sorteador
+├── ⚙️ app.js # Lógica do sorteio e manipulação do DOM
+├── 📑 README.md # Documentação do projeto
 
+---
 
-Contribuição
+## 🚀 Funcionalidades  
+✔️ Adicionar amigos à lista  
+✔️ Evitar nomes duplicados  
+✔️ Garantir que ninguém tire a si mesmo  
+✔️ Sortear e exibir os pares do Amigo Secreto  
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+---
 
+## 🔧 Como Executar Localmente  
+1. Clone este repositório:  
+   ```sh
+   git clone https://github.com/FranciscoArrudaMacr/amigo-secreto.git
+Acesse a pasta do projeto:
+sh
+Copiar
+Editar
+cd amigo-secreto
+Abra o arquivo index.html no navegador.
+📷 Prévia do Sorteador
+<img src="./assets/amigo-secreto.png" alt="Prévia do sorteador" width="600px"/>
 
-Licença
-Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+📫 Contato
+📩 Email: arrudamacr@icloud.com
+🔗 LinkedIn: acesse.one/franciscoarruda
 
-
-Contato
-Francisco Arruda - arrudamacr@icloud.com
+🎁 Divirta-se sorteando amigos! 🚀
+Se gostou, deixe uma ⭐ no repositório! 😃
